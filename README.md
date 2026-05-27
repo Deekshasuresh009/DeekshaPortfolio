@@ -1,4 +1,4 @@
-# FUTURE_FS_01
+# DeekshaPortfolio
 Developed a Portfolio website to showcase technical skills, projects, and certifications. The site features a responsive design, clean user interface, and integrated links to GitHub, LinkedIn, and a downloadable Resume.
 
 # 🌐 Portfolio Website
@@ -27,7 +27,7 @@ This portfolio serves as a digital representation of my work and capabilities, h
 - 🤖 AURA Health AI – AI-based healthcare system  
 
 ## 🌐 Live Demo
-👉 https://deekshasuresh009.github.io/FUTURE_FS_01/ 
+👉 https://github.com/Deekshasuresh009/DeekshaPortfolio.git
 
 ## 📬 Contact
 📧 Email: deekshasuresh1976@gmail.com  
