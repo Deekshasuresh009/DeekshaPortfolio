@@ -1,40 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>AURA AI</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AURA Health AI</title>
+
 <link rel="stylesheet" href="../style.css">
+
 <style>
-body { background:#111; color:white; font-family:Poppins; }
-.project-container { max-width:900px; margin:50px auto; padding:30px; background:#1a1a1a; border-radius:20px; }
-h1,h3 { color:#ff6a3d; }
-.skills span { background:#ff6a3d; padding:8px; margin:5px; border-radius:10px; }
+body{
+  background:#111;
+  color:white;
+  font-family:'Poppins',sans-serif;
+  margin:0;
+}
+
+.project-container{
+  max-width:900px;
+  margin:50px auto;
+  padding:30px;
+  background:#1a1a1a;
+  border-radius:20px;
+  box-shadow:0 10px 30px rgba(0,0,0,.5);
+}
+
+.project-container h1{
+  color:#ff6a3d;
+}
+
+.project-container h3{
+  margin-top:25px;
+  color:#ff6a3d;
+}
+
+ul{
+  padding-left:20px;
+}
+
+li{
+  margin:8px 0;
+}
+
+.skills{
+  margin-top:10px;
+}
+
+.skills span{
+  display:inline-block;
+  background:#ff6a3d;
+  padding:8px 12px;
+  margin:5px;
+  border-radius:10px;
+  font-size:14px;
+}
+
+.back-btn{
+  display:inline-block;
+  margin-top:20px;
+  text-decoration:none;
+  color:#ff6a3d;
+  font-weight:bold;
+}
 </style>
+
 </head>
 
 <body>
+
 <div class="project-container">
 
 <h1>AURA Health AI</h1>
 
 <p>
-AI-powered healthcare system integrating medical data and predictive analytics.
+AURA Health AI is an AI-powered healthcare prediction system that analyzes patient data to predict chronic diseases such as Diabetes, Kidney Disease, and Heart Disease. The platform integrates Machine Learning, Explainable AI (XAI), and feature optimization techniques to improve prediction accuracy and assist medical decision-making.
 </p>
 
 <h3>Features</h3>
+
 <ul>
-<li>Real-time disease prediction</li>
-<li>AI-based analytics</li>
-<li>Secure data handling</li>
-<li>Offline accessibility</li>
+<li>Prediction of Diabetes, Kidney Disease, and Heart Disease</li>
+<li>Machine Learning-based disease analysis</li>
+<li>Explainable AI using SHAP</li>
+<li>Feature optimization with Particle Swarm Optimization (PSO)</li>
+<li>Interactive and responsive web interface</li>
 </ul>
 
 <h3>Key Skills</h3>
+
 <div class="skills">
-<span>AI/ML</span><span>Android</span><span>Analytics</span><span>Cybersecurity</span>
+<span>Python</span>
+<span>Machine Learning</span>
+<span>FastAPI</span>
+<span>React</span>
+<span>Explainable AI</span>
+<span>SHAP</span>
+<span>PSO</span>
 </div>
 
-<a href="../index.html" class="back-btn">⬅ Back</a>
+<a href="../index.html" class="back-btn">⬅ Back to Portfolio</a>
 
 </div>
+
 </body>
 </html>
