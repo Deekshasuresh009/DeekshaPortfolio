@@ -1,40 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Extension Analyzer</title>
+
 <link rel="stylesheet" href="../style.css">
+
 <style>
-body { background:#111; color:white; font-family:Poppins; }
-.project-container { max-width:900px; margin:50px auto; padding:30px; background:#1a1a1a; border-radius:20px; }
-h1,h3 { color:#ff6a3d; }
-.skills span { background:#ff6a3d; padding:8px; margin:5px; border-radius:10px; }
+body{
+  background:#111;
+  color:white;
+  font-family:'Poppins',sans-serif;
+  margin:0;
+}
+
+.project-container{
+  max-width:900px;
+  margin:50px auto;
+  padding:30px;
+  background:#1a1a1a;
+  border-radius:20px;
+  box-shadow:0 10px 30px rgba(0,0,0,.5);
+}
+
+.project-container h1{
+  color:#ff6a3d;
+}
+
+.project-container h3{
+  margin-top:25px;
+  color:#ff6a3d;
+}
+
+ul{
+  padding-left:20px;
+}
+
+li{
+  margin:8px 0;
+}
+
+.skills{
+  margin-top:10px;
+}
+
+.skills span{
+  display:inline-block;
+  background:#ff6a3d;
+  padding:8px 12px;
+  margin:5px;
+  border-radius:10px;
+  font-size:14px;
+}
+
+.back-btn{
+  display:inline-block;
+  margin-top:20px;
+  text-decoration:none;
+  color:#ff6a3d;
+  font-weight:bold;
+}
 </style>
 </head>
 
 <body>
+
 <div class="project-container">
 
 <h1>Browser Extension Analyzer</h1>
 
 <p>
-A cybersecurity tool to detect malicious browser extensions and analyze permissions.
+Browser Extension Analyzer is a cybersecurity tool developed to identify potentially malicious browser extensions by analyzing permissions, scripts, and browser activities. It helps users detect security risks and improve safe browsing.
 </p>
 
 <h3>Features</h3>
+
 <ul>
-<li>Permission analysis</li>
-<li>Domain filtering</li>
-<li>Suspicious script detection</li>
-<li>Extension monitoring</li>
+<li>Permission analysis for installed extensions</li>
+<li>Detection of suspicious scripts</li>
+<li>Domain and URL filtering</li>
+<li>Real-time extension monitoring</li>
+<li>User-friendly security dashboard</li>
 </ul>
 
 <h3>Key Skills</h3>
+
 <div class="skills">
-<span>JavaScript</span><span>Browser APIs</span><span>Cybersecurity</span>
+<span>JavaScript</span>
+<span>Browser APIs</span>
+<span>Cybersecurity</span>
+<span>HTML</span>
+<span>CSS</span>
 </div>
 
-<a href="../index.html" class="back-btn">⬅ Back</a>
+<a href="../index.html" class="back-btn">⬅ Back to Portfolio</a>
 
 </div>
+
 </body>
 </html>
