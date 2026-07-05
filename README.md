@@ -20,10 +20,9 @@ This portfolio serves as a digital representation of my work and capabilities, h
 - JavaScript  
 
 ## 📂 Projects Included
-- 💼 Skill Hub – Peer-to-peer learning platform  
-- 🧭 Pathfinding Visualizer – Algorithm visualization  
+- 💼 Skill Hub – Peer-to-peer learning platform   
 - 🔐 Browser Extension Analyzer – Cybersecurity tool  
-- 📊 K-Means Clustering – Machine learning model  
+- 🛡️ TraceDNA – AI platform for media piracy detection. 
 - 🤖 AURA Health AI – AI-based healthcare system  
 
 ## 🌐 Live Demo
